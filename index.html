@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bad Keyboard</title>
+  <style>
+    html {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: black;
+    }
+    body {
+      text-align: center;
+      font-family: sans-serif;
+    }
+    span {
+      display: inline-block;
+      background: black;
+      color: white;
+      padding: 0.5em; 
+      margin: 1em;
+    }
+    #keys {
+      text-align: left;
+      background: darkslategray;
+      max-width: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" name="keyboard" id="keyboard" placeholder="Type your username" aria-label="Username">
+  <div id="keys"></div>
+  <script src="keyboard.js"></script>
+</body>
+</html>
